@@ -13,7 +13,7 @@ def is_enabled(value, default):
 API_ID = int(environ.get("API_ID", "28776072"))
 API_HASH = environ.get("API_HASH", "b3a786dce1f4e7d56674b7cadfde3c9d")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7063596308:AAEoRUgMgDOa9ia4NIgPXjzfzEg8N1C-ad4")
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002152815615"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002392831227"))
 ADMINS = int(environ.get("ADMINS", "7042535787"))
 DB_URI = environ.get("DB_URI", "mongodb+srv://ftm:ftm@ftmbot.z5iox.mongodb.net/?retryWrites=true&w=majority&appName=ftmbot")
 DB_NAME = environ.get("DB_NAME", "ftmbot")
